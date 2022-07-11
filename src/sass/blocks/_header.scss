@@ -1,0 +1,31 @@
+.header {
+    max-width: 1420px;
+    margin: 0 auto;
+    padding-top: 40px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        display: block;
+        color: $orange;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    &__links {
+        width: 255px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        display: block;
+        font-size: 16px;
+        color: $orange;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

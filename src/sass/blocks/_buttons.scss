@@ -1,0 +1,33 @@
+.btn {
+    display: block;
+    width: 172px;
+    height: 37px;
+    background-color: $orange;
+    border-radius: 19px;
+    border: none;
+    padding: 18px 4px;
+    color: #000000;
+    font-size: 17px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 0px;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 2px 2px 30px $orange;
+
+    }
+    &_download {
+        margin-top: 25px;
+        width: 198px;
+    }
+    &_mini {
+        width: 117px;
+        background-color: transparent;
+        border: 2px solid $white;
+        color: $white;
+        &:hover {
+            background-color: $orange;
+            color: #000000;
+            border: none;
+        }
+    }
+}

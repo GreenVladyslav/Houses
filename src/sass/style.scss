@@ -1,0 +1,23 @@
+@import 'base/variables';
+@import 'base/variables';
+
+* {
+    font-family: 'Poiret One', sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/header';
+@import 'blocks/about';
+@import 'blocks/titles';
+@import 'blocks/projects';

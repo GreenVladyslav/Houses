@@ -1,0 +1,54 @@
+.projects {
+    background: url('../img/bg/bg_project.jpg') center center/cover no-repeat;
+    min-height: 1000px;
+    padding-top: 126px;
+    // padding-bottom: 103px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        width: 517px;
+    }
+    &__descr {
+        margin-top: 25px;
+        font-size: 16px;
+        color: $white;
+        line-height: 18px;
+    }
+    &__card {
+        position: relative;
+        &_photo {
+            display: block;
+        }
+        &_info {
+            position: absolute;
+            top: 17px;
+            left: 34px;
+
+        }
+        &_name {
+            font-size: 68px;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 900;
+            color: $white;
+        }
+        &_space {
+            font-size: 36px;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 900;
+            color: $orange;
+        }
+        &_bathrooms, &_bedrooms {
+            font-size: 17px;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 400;
+            color: $white;
+            img {
+                margin-right: 10px;
+                vertical-align: middle;
+            }
+        }
+
+    }
+}

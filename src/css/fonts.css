@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('MontserratAlternates-Regular.eot');
+    src: url('MontserratAlternates-Regular.eot?#iefix') format('embedded-opentype'),
+    url('MontserratAlternates-Regular.woff') format('woff'),
+    url('MontserratAlternates-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('MontserratAlternates-SemiBold.eot');
+    src: url('MontserratAlternates-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('MontserratAlternates-SemiBold.woff') format('woff'),
+    url('MontserratAlternates-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('MontserratAlternates-Black.eot');
+    src: url('MontserratAlternates-Black.eot?#iefix') format('embedded-opentype'),
+    url('MontserratAlternates-Black.woff') format('woff'),
+    url('MontserratAlternates-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poiret One';
+    src: url('PoiretOne-Regular.eot');
+    src: url('PoiretOne-Regular.eot?#iefix') format('embedded-opentype'),
+    url('PoiretOne-Regular.woff') format('woff'),
+    url('PoiretOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
