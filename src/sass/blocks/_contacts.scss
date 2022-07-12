@@ -33,15 +33,16 @@
                 margin-bottom: -26px;
             }
             a {
-                margin-left: 15px;
+                display: block;
                 font-size: 16px;
                 color: $white;
                 text-decoration: none;
+                img {
+                    padding-right: 5px;
+                    vertical-align: bottom;
+                }
             }
-            img {
-                margin-left: 45px;
-                vertical-align: bottom;
-            }
+
         }
     }
 }
