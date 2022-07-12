@@ -1,7 +1,10 @@
 .header {
-    max-width: 1420px;
-    margin: 0 auto;
-    padding-top: 40px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    min-width: 1360px;
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -10,8 +13,12 @@
     &__logo {
         display: block;
         color: $orange;
-        font-size: 30px;
+        font-size: 32px;
         text-decoration: none;
+        &:hover {
+            color: $orange;
+            text-decoration: none;
+        }
     }
     &__links {
         width: 255px;
@@ -20,12 +27,13 @@
     }
     &__link {
         display: block;
-        font-size: 16px;
+        font-size: 17px;
         color: $orange;
         text-decoration: none;
         cursor: pointer;
         &:hover {
             text-decoration: underline;
+            color: $orange;
         }
     }
 }

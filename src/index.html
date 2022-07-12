@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Этой мой первый пример страницы">
     <title>Hello</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!-- normolize.css сброс стилей -->
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css"> <!-- Шрифты -->
     <link rel="stylesheet" href="css/style.min.css"> <!-- А потом аж сам Css ФАЙЛ -->
 </head>
 <body>
 
-
     <section class="promo">
+
         <header class="header">
             <div class="header__wrapper">
-                <a href="#" class="header__logo">Interior.</a>
+                <div>
+                    <a href="#" class="header__logo">Interior.</a>
+                </div>
     
                 <nav class="header__links">
                     <a href="#" class="header__link">About us</a>
@@ -25,6 +27,7 @@
                 </nav>
             </div>
         </header>
+
         <div class="container">
             <div class="promo__content">
                 <h1 class="promo__title">Would you like to live in<br>beautiful and quiet place?</h1>
@@ -70,6 +73,7 @@
                 </div>
                 <div class="projects__card">
                     <img class="projects__card_photo"src="img/boston.png" alt="boston">
+                    
                     <div class="projects__card_info">
                         <div class="projects__card_name">Boston</div>
                         <div class="projects__card_space">450m<sup>2</sup></div>
@@ -85,8 +89,129 @@
                     </div>
                 </div>
             </div>
-            <div class="projects__catalog"></div>
+            <div class="projects__catalog">
+                <div class="projects__card">
+                    <img class="projects__card_photo"src="img/maiami.png" alt="maiami">
+                    
+                    <div class="projects__card_info">
+                        <div class="projects__card_name">Maiami</div>
+                        <div class="projects__card_space">420m<sup>2</sup></div>
+                        <div class="projects__card_bathrooms">
+                            <img src="icons/bathtub.png" alt="bathroom">
+                            2 bathrooms
+                        </div>
+                        <div class="projects__card_bedrooms">
+                            <img src="icons/bed.png" alt="bedroom">
+                            2 bedrooms
+                        </div>
+                        <button class="btn btn_mini">See more</button>
+                    </div>
+                </div>
+
+                <div class="projects__card">
+                    <img class="projects__card_photo"src="img/sieti.png" alt="sietl">
+                    
+                    <div class="projects__card_info">
+                        <div class="projects__card_name">Sietl</div>
+                        <div class="projects__card_space">380m<sup>2</sup></div>
+                        <div class="projects__card_bathrooms">
+                            <img src="icons/bathtub.png" alt="bathroom">
+                            2 bathrooms
+                        </div>
+                        <div class="projects__card_bedrooms">
+                            <img src="icons/bed.png" alt="bedroom">
+                            1 bedrooms
+                        </div>
+                        <button class="btn btn_mini">See more</button>
+                    </div>
+                </div>
+
+                <div class="projects__card">
+                    <img class="projects__card_photo"src="img/orlando.png" alt="orlando">
+                    
+                    <div class="projects__card_info">
+                        <div class="projects__card_name">Orlando</div>
+                        <div class="projects__card_space">520m<sup>2</sup></div>
+                        <div class="projects__card_bathrooms">
+                            <img src="icons/bathtub.png" alt="bathroom">
+                            4 bathrooms
+                        </div>
+                        <div class="projects__card_bedrooms">
+                            <img src="icons/bed.png" alt="bedroom">
+                            3 bedrooms
+                        </div>
+                        <button class="btn btn_mini">See more</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <section class="contacts">
+        <div class="container">
+            <div class="title">Contacts</div>
+            <div class="contacts__wrapper">
+                <div class="contacts__content">
+                    
+                    <div class="contacts__content_office">
+                        <div class="contacts__subtitle">We are waiting for you at our office in Roga.</div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.221501543757!2d24.133850515949042!3d56.962138180894065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfb554fc4b73%3A0xd12bc99715c1c4a!2zQnLEq3bEq2JhcyBpZWxhIDEyMCwgQ2VudHJhIHJham9ucywgUsSrZ2EsIExWLTEwMDEsINCb0LDRgtCy0LjRjw!5e0!3m2!1sru!2sua!4v1657630779359!5m2!1sru!2sua" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="contacts__content_icons">
+                        <div class="contacts__content_item">
+                            <img src="icons/location-pin.png" alt="location">
+                            <a href="#">Riga, Brivibas iela, 120a</a>
+                        </div>
+                        <div class="contacts__content_item">
+                            <img src="icons/call.png" alt="phone">
+                            <a href="tel:37126326400">+371 26326400</a>
+                        </div>
+                        <div class="contacts__content_item">
+                            <img src="icons/email.png" alt="email">
+                            <a href="#">info.interior@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="contacts__form">
+                    <div class="contacts__form_subtitle">Write your phone number<br>and our manager will call you</div>
+                    <form class="feed-form">
+                        <input name="name" required type="text" placeholder="Your name">
+                        <input name="phone" required type="phone" placeholder="Your phone">
+                        
+                        <button type="submit" class="btn btn_submit">Send</button>
+                    </form>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__logo">Interior<span>.</span></div>
+            <div class="footer__copyright">© 2019 All rights are deserved</div>
+        </div>
+    </footer>
+
+    <!-- <div class="overlay">
+        <div class="modal">
+            <div class="contacts__form">
+                <div class="contacts__form_subtitle">Write your phone number<br>and our manager will call you</div>
+                <form class="feed-form">
+                    <input name="name" required type="text" placeholder="Your name">
+                    <input name="phone" required type="phone" placeholder="Your phone">
+                    
+                    <button type="submit" class="btn btn_submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div> -->
+    
+    <script src="script.js"></script>
+
 </body>
 </html>

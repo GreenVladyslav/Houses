@@ -5,10 +5,6 @@
     font-family: 'Poiret One', sans-serif;
 }
 
-h2 {
-    margin: 0;
-}
-
 .container {
     position: relative;
     max-width: 1300px;
@@ -21,3 +17,7 @@ h2 {
 @import 'blocks/about';
 @import 'blocks/titles';
 @import 'blocks/projects';
+@import 'blocks/contacts';
+@import 'blocks/forms';
+@import 'blocks/footer';
+@import 'blocks/modal';

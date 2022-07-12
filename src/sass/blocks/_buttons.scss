@@ -13,13 +13,14 @@
     cursor: pointer;
     &:hover {
         box-shadow: 2px 2px 30px $orange;
-
+        border: none;
     }
     &_download {
         margin-top: 25px;
         width: 198px;
     }
     &_mini {
+        margin-top: 37px;
         width: 117px;
         background-color: transparent;
         border: 2px solid $white;
@@ -29,5 +30,11 @@
             color: #000000;
             border: none;
         }
+    }
+    &_submit {
+        width: 83px;
+        height: 37px;
+        margin: 0 auto;
+        margin-top: 27px;
     }
 }

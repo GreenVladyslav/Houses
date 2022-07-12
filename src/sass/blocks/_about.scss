@@ -1,7 +1,7 @@
 .about {
     background-color: #020710;
     min-height: 612px;
-    padding-top: 35px;
+    padding: 36px 0 76px 0;
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -13,18 +13,20 @@
         margin-top: 25px;
         font-size: 16px;
         color: $white;
-        line-height: 18px;
+        line-height: 20px;
         &-yellow {
             color: $yellow;
             font-size: 20px;
+            line-height: 24px;
             width: 463px;
             margin-left: 123px;
             position: absolute;
-            top: 25px;
+            top: 30px;
         }
         &-building {
-            margin-top: 12px;
+            margin-top: 13px;
             color: $white;
+            line-height: 20px;
         }
     }
     &__subtitle {
@@ -36,14 +38,15 @@
     &__wood {
         position: relative;
         img {
+            top: 10px;
             display: block;
             position: absolute;
             left: -48px;
         }
     }
     .divider {
-        margin-top: 36px;
-        margin-bottom: 39px;
+        margin-top: 37px;
+        margin-bottom: 40px;
         width: 441px;
         height: 2px;
         background-color: #707070;

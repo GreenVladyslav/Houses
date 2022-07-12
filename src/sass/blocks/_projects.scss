@@ -1,8 +1,7 @@
 .projects {
     background: url('../img/bg/bg_project.jpg') center center/cover no-repeat;
     min-height: 1000px;
-    padding-top: 126px;
-    // padding-bottom: 103px;
+    padding: 156px 0 90px 0;
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -14,7 +13,7 @@
         margin-top: 25px;
         font-size: 16px;
         color: $white;
-        line-height: 18px;
+        line-height: 20px;
     }
     &__card {
         position: relative;
@@ -29,18 +28,22 @@
         }
         &_name {
             font-size: 68px;
+            line-height: 84px;
             font-family: 'Montserrat Alternates', sans-serif;
             font-weight: 900;
             color: $white;
         }
         &_space {
             font-size: 36px;
+            line-height: 44px;
             font-family: 'Montserrat Alternates', sans-serif;
             font-weight: 900;
             color: $orange;
         }
         &_bathrooms, &_bedrooms {
+            margin-top: 17px;
             font-size: 17px;
+            line-height: 20px;
             font-family: 'Montserrat Alternates', sans-serif;
             font-weight: 400;
             color: $white;
@@ -50,5 +53,12 @@
             }
         }
 
+    }
+    &__catalog {
+        margin-top: 44px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 }

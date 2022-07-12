@@ -1,11 +1,9 @@
 .promo {
+    position: relative;
+    z-index: 1;
     background: url('../img/bg/bg_intro.jpg') center center/cover no-repeat;
     min-height: 764px;
-    // width: 1600px;
-    margin: 0 auto;
-    &__content {
-        padding-top: 225px;
-    }
+    padding: 205px 0 293px 0;
     &__title {
         font-size: 28px;
         color: $white;

@@ -1,0 +1,20 @@
+.footer {
+    height: 152px;
+    background-color: #02070F;
+    padding: 55px 0 43px 0;
+    text-align: center;
+    &__logo {
+        font-size: 29px;
+        color: $white;
+        line-height: 34px;
+        span {
+            color: $yellow;
+        }
+    }
+    &__copyright {
+        margin-top: 14px;
+        font-size: 12px;
+        line-height: 14px;
+        color: $white;
+    }
+}

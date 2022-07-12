@@ -1,0 +1,38 @@
+.contacts__form {
+    width: 436px;
+    height: 263px;
+    background-color: rgb(255, 255, 255, .2);
+    border-radius: 40px;
+    margin-right: 210px;
+    &_subtitle {
+        padding-top: 28px;
+        font-size: 17px;
+        line-height: 20px;
+        color: $white;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input {
+        margin-top: 10px;
+        width: 337px;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid;
+        color: $white;
+        font-size: 16px;
+        line-height: 18px;
+        outline: transparent;
+        &::placeholder {
+            color: $white;
+        }
+    }
+}
