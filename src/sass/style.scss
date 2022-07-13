@@ -1,12 +1,14 @@
 @import 'base/variables';
-@import 'base/variables';
+@import 'base/mixins';
+
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
 
 * {
     font-family: 'Poiret One', sans-serif;
 }
 
 .container {
-    position: relative;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -21,3 +23,4 @@
 @import 'blocks/forms';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/pageup';

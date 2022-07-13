@@ -1,6 +1,6 @@
 .contacts__form {
     width: 436px;
-    height: 263px;
+    min-height: 263px;
     background-color: rgb(255, 255, 255, .2);
     border-radius: 40px;
     margin-right: 210px;
@@ -12,6 +12,15 @@
         font-family: 'Montserrat Alternates', sans-serif;
         font-weight: 400;
         text-align: center;
+    }
+    &-thanks {
+        padding-top: 48px;
+        font-size: 20px;
+        line-height: 20px;
+        color: $white;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 400;
+        text-align: center; 
     }
 }
 
@@ -32,7 +41,15 @@
         line-height: 18px;
         outline: transparent;
         &::placeholder {
-            color: $white;
+            color: $white;  
         }
+    }
+    .error {
+        border-bottom: 2px solid #b30d0d8f;;
+    }
+    label.error {
+        border: none;
+        color: $white;
+        padding-top: 10px;
     }
 }
