@@ -1,8 +1,10 @@
 .promo {
-    position: relative;
     background: url('../img/bg/bg_intro.jpg') center center/cover no-repeat;
-    min-height: 764px;
-    padding: 205px 0 293px 0;
+    max-height: 764px;
+    padding-bottom: 293px;
+    &__content {
+        margin-top: 200px;
+    }
     &__title {
         font-size: 28px;
         color: $white;

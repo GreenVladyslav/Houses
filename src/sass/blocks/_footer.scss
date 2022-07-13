@@ -2,11 +2,14 @@
     height: 152px;
     background-color: #02070F;
     padding: 55px 0 43px 0;
-    text-align: center;
+    max-width: 1600px;
+    min-width: 1000px;
+    margin: 0 auto;
     &__logo {
         font-size: 29px;
         color: $white;
         line-height: 34px;
+        text-align: center;
         span {
             color: $yellow;
         }
@@ -16,5 +19,6 @@
         font-size: 12px;
         line-height: 14px;
         color: $white;
+        text-align: center;
     }
 }

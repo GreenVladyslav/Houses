@@ -41,7 +41,7 @@
         line-height: 18px;
         outline: transparent;
         &::placeholder {
-            color: $white;  
+            color: $white;
         }
     }
     .error {
@@ -53,3 +53,14 @@
         padding-top: 10px;
     }
 }
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    border-bottom: 1px solid $white;
+    -webkit-text-fill-color: $white;
+    -webkit-box-shadow: inherit;
+    transition: background-color 500s ease-in-out 0s;
+}
+

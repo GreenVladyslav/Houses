@@ -1,10 +1,7 @@
 .header {
-    position: absolute;
-    top: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-    min-width: 1360px;
+    padding-top: 40px;
+    max-width: 1360px;
+    margin: 0 auto;
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -12,9 +9,12 @@
     }
     &__logo {
         display: block;
-        color: $orange;
+        color: $white;
         font-size: 32px;
         text-decoration: none;
+        span {
+            color: #ffd500;
+        }
         &:hover {
             color: $orange;
             text-decoration: none;
@@ -28,7 +28,7 @@
     &__link {
         display: block;
         font-size: 17px;
-        color: $orange;
+        color: $white;
         text-decoration: none;
         cursor: pointer;
         &:hover {
