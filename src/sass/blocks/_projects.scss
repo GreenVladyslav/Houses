@@ -16,6 +16,9 @@
         line-height: 20px;
     }
     &__card {
+        &_disabled {
+            display: none;
+        }
         position: relative;
         &_photo {
             display: block;
@@ -24,7 +27,6 @@
             position: absolute;
             top: 17px;
             left: 34px;
-
         }
         &_name {
             font-size: 68px;
