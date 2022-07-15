@@ -87,5 +87,29 @@ $(document).ready(function() {
 
         return false;
     });
+
+
+    /* menu */
+
+    $('.hamburger').on('click', () => {
+        $('.hamburger').toggleClass('hamburger_active');
+        $('.header__links').toggleClass('header__links_active');
+    });
+
+    // $('.header__link').each(function(item){
+    //     item.on('click', () => {
+    //         $('.hamburger').toggleClass('hamburger_active');
+    //         $('.header__links').toggleClass('header__links_active');
+    //     });
+    // });
+
+    document.querySelectorAll('.header__link').forEach(element => {
+        element.addEventListener('click', () => {
+            document.querySelector('.hamburger').classList.toggle(document.querySelector('.hamburger_active'));
+            document.querySelector('.header__links').classList.toggle(document.querySelector('.header__links_active'));
+        });
+    });
+
 });
+
 

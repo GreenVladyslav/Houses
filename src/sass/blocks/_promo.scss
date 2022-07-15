@@ -1,9 +1,8 @@
 .promo {
     background: url('../img/bg/bg_intro.jpg') center center/cover no-repeat;
-    max-height: 764px;
+    min-height: 724px;
     &__content {
-        margin-top: 200px;
-        padding-bottom: 293px;
+        padding-top: 250px;
     }
     &__title {
         font-size: 28px;

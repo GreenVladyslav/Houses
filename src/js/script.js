@@ -87,5 +87,21 @@ $(document).ready(function() {
 
         return false;
     });
+
+
+    /* menu */
+
+    $('.hamburger').on('click', () => {
+        $('.hamburger').toggleClass('hamburger_active');
+        $('.header__links').toggleClass('header__links_active');
+    });
+
+    $('.header__link').each(i => {
+        i.on('click', () => {
+            $('.hamburger').toggleClass('hamburger_active');
+            $('.header__links').toggleClass('header__links_active');
+        });
+    });
 });
+
 

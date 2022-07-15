@@ -1,11 +1,18 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
 .header {
-    padding-top: 40px;
-    max-width: 1360px;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 0 10px;
     &__wrapper {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        padding-top: 10px;
     }
     &__logo {
         display: block;
@@ -21,9 +28,11 @@
         }
     }
     &__links {
-        width: 255px;
+        width: 300px;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
     &__link {
         display: block;
@@ -35,5 +44,10 @@
             text-decoration: underline;
             color: $orange;
         }
+        .hamburger {
+            display: none;
+        }
     }
 }
+
+    
